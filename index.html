@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Saranga Coffee</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- YouTube Background -->
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe
+        src="https://www.youtube.com/embed/utBOUNST6x0?autoplay=1&mute=1&loop=1&playlist=utBOUNST6x0&controls=0&showinfo=0&modestbranding=1&rel=0"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="overlay"></div>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <h1 class="logo">☕ Saranga Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text" data-aos="fade-up">
+      <h2>Welcome to Saranga Coffee Shop</h2>
+      <p>Start your day with a perfect cup of coffee</p>
+
+      <div class="menu-gallery" data-aos="fade-up">
+        <div class="menu-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPVnUgGP6ADE_fnololFjuynqQOuCrCdwS1w&s" alt="Espresso">
+          <h4>Classic Espresso</h4>
+          <p class="price">$3.00</p>
+        </div>
+        <div class="menu-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlYYFT09C6BlReRhjUixJ8RxWs7AQh7iO34Q&s" alt="Cappuccino">
+          <h4>Cappuccino</h4>
+          <p class="price">$4.50</p>
+        </div>
+        <div class="menu-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSNw7oOeCCCIv_D1ok78I61XqgUl1ZU_S2DA&s" alt="Mocha">
+          <h4>Mocha Delight</h4>
+          <p class="price">$5.25</p>
+        </div>
+      </div>
+
+      <a href="#" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section services" data-aos="fade-up">
+    <h3>Our Services</h3>
+    <div class="services-grid">
+      <div class="service-card">
+        <h4>In-House Roasting</h4>
+        <p>We roast our beans fresh every week for bold, unique flavors.</p>
+      </div>
+      <div class="service-card">
+        <h4>Custom Orders</h4>
+        <p>Personalized coffee blends and packaging for events or gifting.</p>
+      </div>
+      <div class="service-card">
+        <h4>Free Wi-Fi Lounge</h4>
+        <p>Relax or work with a smooth latte in a quiet, cozy setting.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section testimonials" data-aos="fade-up">
+    <h3>What Our Customers Say</h3>
+    <div class="testimonial-container">
+      <blockquote>
+        "The best coffee in town! The atmosphere is warm and welcoming."
+        <span>- Ayesha</span>
+      </blockquote>
+      <blockquote>
+        "I come here every morning. Friendly staff and amazing espresso!"
+        <span>- Kevin</span>
+      </blockquote>
+      <blockquote>
+        "Love the seasonal drinks and the quiet vibe to read or work."
+        <span>- Jamal</span>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section contact-section" data-aos="fade-up">
+    <h3>Contact Us</h3>
+    <p class="contact-message">
+      I can deliver this to you and to receive it, please fill the form below.
+    </p>
+    <form class="contact-form" action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Saranga Coffee. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+
+</body>
+</html>
